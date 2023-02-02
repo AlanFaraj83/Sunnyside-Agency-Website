@@ -11,3 +11,38 @@
     background-position: center bottom;
     background-size: cover;
 }
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+     
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    color: darkblue;
+    align-items: center;
+    
+}
+
+.menu span {
+    margin-right: 30px;
+}
+
+.contact{
+    background-color: white;
+    border-radius: 15px;
+    color: darkslategray;
+    padding: 4px 15px;
+    cursor: pointer; 
+    transition: 0.25s all ease-in-out; /*especifica um efeito de transição com um fim lento */
+}
+
+.contact:hover {
+    background-color: yellow;
+}
