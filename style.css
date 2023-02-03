@@ -68,7 +68,7 @@
 
 .clickbutton {
     background-color: white;
-    font-size: 15px;
+    font-size: 17px;
     border-radius: 20px;
     color: darkslategray;
     padding: 8px 30px;
@@ -76,6 +76,7 @@
     transition: 0.25s all ease-in-out; /*especifica um efeito de transição com um fim lento */
     margin-right: 10px;
     text-align: center;
+
     
 }
 
