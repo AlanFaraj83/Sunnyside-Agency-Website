@@ -6,7 +6,8 @@
 
 .banner {
     background-color:blue;
-    height: 100vh;
+    height: 80vh;
+    min-height: 600px;
     background-image: url('images/desktop/image-header.jpg');
     background-position: center bottom;
     background-size: cover;
@@ -76,6 +77,7 @@
     transition: 0.25s all ease-in-out; /*especifica um efeito de transição com um fim lento */
     margin-right: 10px;
     text-align: center;
+    height: 23px;
 
     
 }
@@ -83,3 +85,91 @@
 .clickbutton:hover {
     background-color: yellow;
 }
+
+.section1, .section2, .section3 {
+    display: flex;
+    height: 350px;
+}
+
+.section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section1 .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .text-container {
+    width: 70%;
+}
+
+.left h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.left p {
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.left .button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left div img {
+    width: 150px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left img, .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section2 .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .text-container {
+    width: 70%;
+}
+
+
+.right h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.right p {
+    color: #848391;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.right .button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right div img {
+    width: 150px;
+}
+
+
